@@ -1,6 +1,3 @@
-<?php
-
-?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -9,12 +6,16 @@
         <title></title>
     </head>
     <body>
-        <?php
+       <?php
 $t=date("H");
 if ($t<"20")
-  {
-  echo "Have a good day!";
-  }
-?> 
+   {
+   echo "Have a good day!";
+   }
+else
+   {
+   echo "Have a good night!";
+   }
+?>
     </body>
 </html>
